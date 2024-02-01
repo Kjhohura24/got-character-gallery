@@ -1,14 +1,8 @@
-# Game of Thrones Character Gallery: Deployment
+# React + Vite
 
-* In this demonstration, the instructor will walk you through the process of deploying a GitHub repo with Netlify via a continuous development pipeline.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Instructions
+Currently, two official plugins are available:
 
-* Follow along as your instructor demonstrates how to:
-  1. Create a [Netlify](https://www.netlify.com/) account with [GitHub](https://github.com/) credentials.
-  2. Create a repo called `got-character-gallery` on `GitHub`.
-  3. Create a continuous development pipeline between `Netlify` and the `got-character-gallery` repo housed on `GitHub`.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
